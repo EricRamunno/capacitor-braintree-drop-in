@@ -1,0 +1,78 @@
+{
+  "api": {
+    "name": "BraintreeDropInPlugin",
+    "slug": "braintreedropinplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "showDropIn",
+        "signature": "(options: DropInOptions) => Promise<any>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "DropInOptions"
+          }
+        ],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "DropInOptions"
+        ],
+        "slug": "showdropin"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "DropInOptions",
+      "slug": "dropinoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "paymentToken",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "amount",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "number"
+        },
+        {
+          "name": "givenName",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "surname",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "email",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}

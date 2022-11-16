@@ -76,7 +76,5 @@
     }
   },
   "dependencies": {
-    "@types/braintree-web-drop-in": "^1.33.0",
-    "braintree-web-drop-in": "^1.33.7"
   }
 }

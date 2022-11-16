@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface BraintreeDropInPlugin {\n  showDropIn(options: DropInOptions): Promise<any>;\n}\n\nexport interface DropInOptions {\n  paymentToken: string,\n  amount: number,\n  givenName: string,\n  surname: string,\n  email: string\n}\n"]}
