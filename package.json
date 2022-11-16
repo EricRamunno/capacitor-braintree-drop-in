@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SyntesiX/capacitor-braintree-drop-in.git"
+    "url": "git+https://github.com/EricRamunno/capacitor-braintree-drop-in.git"
   },
   "bugs": {
-    "url": "https://github.com/SyntesiX/capacitor-braintree-drop-in/issues"
+    "url": "https://github.com/EricRamunno/capacitor-braintree-drop-in/issues"
   },
   "keywords": [
     "capacitor",
